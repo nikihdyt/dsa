@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
-	a := []int{1, 2, 2, 3, 4, 4, 4}
-	fmt.Println(solution.RemDuplicates(a))
+	a := []int{0,1,1,2}
+	// fmt.Println(solution.RemDuplicates(a))
+
+	fmt.Println(solution.RemElement2ndTry(a, 1))
 }
