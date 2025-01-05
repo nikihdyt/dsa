@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	a := []int{0,1,1,2}
+	a := []int{0,1, 3}
 	// fmt.Println(solution.RemDuplicates(a))
 
-	fmt.Println(solution.RemElement3ndTry(a, 1))
+	fmt.Println(solution.SearchIdx(a, 3))
 }
